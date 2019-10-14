@@ -15,6 +15,11 @@ import javax.annotation.Resource;
 @Controller
 public class ClickController {
 
+    /**
+     * 另一种方法见博客：https://blog.csdn.net/crazy123456789/article/details/25054705
+     * 利用MD5加密后得出
+     */
+
     @Resource
     private IShortenerService shortenerService;
 
